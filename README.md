@@ -2,14 +2,19 @@
 
 ##  Demo Screenshots
 
+
 ### Main Interface
+
 ![Main Interface](main-interface.png)
 
 ### Visualization
+
 ![Visualization](visualization.png)
 
 ### Comparison View
+
 ![Comparison](comparison.png)
+
 # Modular Structure - Page Replacement Visualizer
 
 ## 📁 Project Structure
@@ -32,7 +37,7 @@ Page Fault/
 
 ## 🎯 Module Responsibilities
 
-### 1. **constants.py** (35 lines)
+### 1. **constants.py** 
 **Purpose:** Centralized configuration and constants
 
 **Contains:**
@@ -47,7 +52,7 @@ Page Fault/
 
 ---
 
-### 2. **models.py** (20 lines)
+### 2. **models.py** 
 **Purpose:** Data structures
 
 **Contains:**
@@ -59,7 +64,7 @@ Page Fault/
 
 ---
 
-### 3. **algorithms.py** (200 lines)
+### 3. **algorithms.py** 
 **Purpose:** Page replacement algorithm implementations
 
 **Contains:**
@@ -81,7 +86,7 @@ Page Fault/
 
 ---
 
-### 4. **controllers.py** (60 lines)
+### 4. **controllers.py** 
 **Purpose:** Animation state management
 
 **Contains:**
@@ -100,7 +105,7 @@ Page Fault/
 
 ---
 
-### 5. **window.py** (530 lines)
+### 5. **window.py** 
 **Purpose:** Visualization user interfaces
 
 **Contains:**
@@ -123,7 +128,7 @@ Page Fault/
 
 ---
 
-### 6. **app.py** (280 lines)
+### 6. **app.py** 
 **Purpose:** Main application window and logic
 
 **Contains:**
@@ -143,7 +148,7 @@ Page Fault/
 
 ---
 
-### 7. **main.py** (30 lines)
+### 7. **main.py** 
 **Purpose:** Application entry point
 
 **Contains:**
@@ -229,4 +234,5 @@ algo_class = {
     'LFU': LFUAlgorithm,  # Add this
 }
 ```
+
 
