@@ -1,3 +1,15 @@
+# Page Replacement Algorithm Visualizer
+
+##  Demo Screenshots
+
+### Main Interface
+![Main Interface](main-interface.png)
+
+### Visualization
+![Visualization](visualization.png)
+
+### Comparison View
+![Comparison](comparison.png)
 # Modular Structure - Page Replacement Visualizer
 
 ## 📁 Project Structure
@@ -217,3 +229,4 @@ algo_class = {
     'LFU': LFUAlgorithm,  # Add this
 }
 ```
+
